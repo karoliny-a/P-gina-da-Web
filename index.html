@@ -102,8 +102,8 @@ padding:15px;
 </body>
 <script>
    botoes.forEach(function(botao) {
-    botao.addEventListener("click", botaoClicado);
-    function botaoClicado() {
+    botao.addEventListener("click", botaosClicados);
+    function botaosClicados() {
         console.log("fui clicado");
         let texto = botao.querySelector("span");
         texto.textContent++;
