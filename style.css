@@ -9,6 +9,15 @@
     --cor-nota: #ff8c00;
 }
 
+.tema-escuro {
+    --cor-primaria: #c9e3ff;
+    --cor-secundaria: #3782d2;
+    --cor-fundo: #000000;
+    --cor-texto: #151428;
+    --cor-contraste: #f3eef7;
+    --cor-botao: #f9f9f9;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
