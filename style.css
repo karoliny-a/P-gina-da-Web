@@ -69,3 +69,7 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+.btn-tema-escuro{
+    position: fixed;
+}
