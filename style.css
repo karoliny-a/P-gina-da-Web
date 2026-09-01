@@ -9,6 +9,20 @@
     --cor-nota: #ff8c00;
 }
 
+.tema-escuro{
+    
+    --cor-primaria: #bfb4e4;
+    --cor-secundaria: #c8bcf1;
+    --cor-fundo: #ffffff;
+    --cor-texto: #151428;
+    --cor-contraste: #f3eef7;
+    --cor-botao: #f9f9f9;
+    --cor-destaque: #ffd166;
+    --cor-nota: #ff8c00;
+}
+
+
+
 .tema-escuro {
     --cor-primaria: #c9e3ff;
     --cor-secundaria: #3782d2;
