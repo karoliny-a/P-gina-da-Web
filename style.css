@@ -1,41 +1,31 @@
 :root {
     --cor-primaria: #3b2f63;
     --cor-secundaria: #c8bcf1;
-    --cor-fundo: #ffffff;
+    --cor-fundo: #eef5ff; /* Usada no fundo da pagina */
+    --cor-card: #ffffff;  /* Usada nos posts */
     --cor-texto: #151428;
     --cor-contraste: #f3eef7;
     --cor-botao: #f9f9f9;
     --cor-destaque: #ffd166;
     --cor-nota: #ff8c00;
 }
-
-.tema-escuro{
-    
-    --cor-primaria: #bfb4e4;
-    --cor-secundaria: #c8bcf1;
-    --cor-fundo: #ffffff;
-    --cor-texto: #151428;
-    --cor-contraste: #f3eef7;
-    --cor-botao: #f9f9f9;
-    --cor-destaque: #ffd166;
-    --cor-nota: #ff8c00;
-}
-
-
 
 .tema-escuro {
-    --cor-primaria: #c9e3ff;
-    --cor-secundaria: #3782d2;
-    --cor-fundo: #000000;
-    --cor-texto: #151428;
-    --cor-contraste: #f3eef7;
-    --cor-botao: #f9f9f9;
+    --cor-primaria: #bfb4e4;
+    --cor-secundaria: #3b2f63;
+    --cor-fundo: #121212; /* Fundo escuro */
+    --cor-card: #1e1e2e;  /* Posts escuros */
+    --cor-texto: #e6e6e6; /* Texto claro */
+    --cor-contraste: #2a283e;
+    --cor-botao: #2b2b36;
+    --cor-destaque: #ffd166;
+    --cor-nota: #ffaa33;
 }
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background: #eef5ff;
+    background: var(--cor-fundo); /* Agora reage ao tema */
     color: var(--cor-texto);
 }
 
@@ -57,7 +47,7 @@ main {
 }
 
 .post {
-    background: var(--cor-fundo);
+    background: var(--cor-card); /* Usa a nova variavel de card */
     padding: 18px;
     margin-bottom: 20px;
     border-radius: 10px;
